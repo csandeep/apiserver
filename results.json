@@ -1,0 +1,96 @@
+{
+  "Pennsylvania": {
+    "Chester": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    },
+    "Beaver": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 350
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    },
+    "Adams": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    },
+    "Allegheny": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    },
+    "Armstrong": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    }
+  },
+  "New Jersey": {
+    "Union": {
+      "Democrats": {
+        "Humphrey ": 100,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 202,
+        "McCloskey": 1
+      }
+    },
+    "Atlantic": {
+      "Democrats": {
+        "Humphrey ": 20,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    }
+  },
+  "Alabama": {
+    "Butler": {
+      "Democrats": {
+        "Humphrey ": 1040,
+        "McGovern": 50
+      },
+      "Republicans": {
+        "Nixon": 200,
+        "Ashbrook": 2,
+        "McCloskey": 1
+      }
+    }
+  }
+}
