@@ -1,24 +1,30 @@
 ## Getting Started
 
-First, install the dependencies:
+- install the dependencies:
 
-```bash
-npm ci
-```
+  ```bash
+  npm ci
+  ```
 
-Next, run the development server:
+- replace the `results.json` file with your primary election results json file
+- edit `.env` and update the `RESULTS_JSON_FILE` to point to the full path of the `results.json` , eg: `/Users/sandeep/TakeHomeTest/apiserver/results.json`
+- Next, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  # or
+  bun dev
+  ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+**Note**:
+
+- in case the `results.json` is invalid the server will halt.
 
 ### API Documentation
 
