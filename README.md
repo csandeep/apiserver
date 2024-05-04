@@ -7,7 +7,6 @@
   ```
 
 - replace the `results.json` file with your primary election results json file
-- edit `.env` and update the `RESULTS_JSON_FILE` to point to the full path of the `results.json` , eg: `/Users/sandeep/TakeHomeTest/apiserver/results.json`
 - Next, run the development server:
 
   ```bash

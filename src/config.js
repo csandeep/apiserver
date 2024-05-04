@@ -27,8 +27,10 @@ if (!result.success) {
 // check if this is a valid json file and load the file into memory
 try {
   // @ts-ignore
-  const a = require(process.env.RESULTS_JSON_FILE);
+  const a = require(process.cwd() + '/' + process.env.RESULTS_JSON_FILE);
 } catch (e) {
-  console.error(`${process.env.RESULTS_JSON_FILE} is not a valid json`);
+  console.error(
+    `${process.cwd() + '/' + process.env.RESULTS_JSON_FILE} is not a valid json`,
+  );
   process.exit(1);
 }
