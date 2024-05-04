@@ -32,8 +32,8 @@ export default function ElectionResultTable({ results, parties }) {
                   key={party}
                   className="border border-gray-300 px-4 py-2 text-center"
                 >
-                  {county_result.results[party]['candidate']} (
-                  {county_result.results[party]['votes']})
+                  {county_result.results.hasOwnProperty(party) && county_result.results[party]['candidate']} (
+                  {county_result.results.hasOwnProperty(party) && county_result.results[party]['votes']})
                 </td>
               ))}
             </tr>
